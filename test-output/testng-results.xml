@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-26T16:48:49 COT" name="Default suite" finished-at="2023-01-26T16:49:27 COT" duration-ms="38339">
+    <groups>
+    </groups>
+    <test started-at="2023-01-26T16:48:49 COT" name="Default test" finished-at="2023-01-26T16:49:27 COT" duration-ms="38339">
+      <class name="org.tyba.tests.DreamUITest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:org.tyba.tests.DreamUITest@2cd2a21f]" started-at="2023-01-26T16:48:49 COT" name="initializeDriver" finished-at="2023-01-26T16:49:03 COT" duration-ms="13982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="calculateLoanWithDefaultData()[pri:1, instance:org.tyba.tests.DreamUITest@2cd2a21f]" started-at="2023-01-26T16:49:03 COT" name="calculateLoanWithDefaultData" description="Check if the user can calculate a loan" finished-at="2023-01-26T16:49:26 COT" duration-ms="22448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateLoanWithDefaultData -->
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:org.tyba.tests.DreamUITest@2cd2a21f]" started-at="2023-01-26T16:49:26 COT" name="testSetUp" finished-at="2023-01-26T16:49:27 COT" duration-ms="1886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestContext)[pri:0, instance:org.tyba.tests.DreamUITest@2cd2a21f]" started-at="2023-01-26T16:49:27 COT" name="tearDown" finished-at="2023-01-26T16:49:28 COT" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d7109be]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.tyba.tests.DreamUITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
